@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: modrobotics.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Jan 19 14:16:44 2027 GMT
+  hsts: false
+domains:
+- domain: modrobotics.com
+  dnssec: false
+  caa:
+  - 0 issue "godaddy.com"
+  - 0 iodef "mailto:devops@modrobotics.com"
+  - 0 issue "letsencrypt.org"
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

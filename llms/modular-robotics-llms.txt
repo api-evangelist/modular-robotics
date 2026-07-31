@@ -1,0 +1,31 @@
+# Modular Robotics
+
+> Modular Robotics is a hardware and educational-robotics company (Boulder, CO)
+> best known for Cubelets magnetic robot construction blocks and MOSS, and the
+> Dexter Industries product line (GoPiGo, BrickPi, GrovePi, GiggleBot) for
+> Raspberry Pi and micro:bit STEM learning. The company sells physical products
+> and apps rather than a public HTTP API; programmatic access is through
+> first-party Python driver libraries on PyPI.
+
+## Products
+- [Cubelets](https://modrobotics.com/cubelets/): Magnetic modular robot blocks (SENSE / THINK / ACT)
+- [GoPiGo](https://gopigo.io/): Raspberry Pi robot for computer-science education
+- [BrickPi](https://modrobotics.com/): Connects LEGO Mindstorms to the Raspberry Pi
+- [GrovePi](https://modrobotics.com/): Grove sensor interface for the Raspberry Pi
+- [Cubelets Console](https://console.modrobotics.com): Web app for programming Cubelets (Blockly / C coding)
+
+## Packages (first-party Python libraries)
+- [gopigo3 (PyPI)](https://pypi.org/project/gopigo3/): pip install gopigo3
+- [brickpi3 (PyPI)](https://pypi.org/project/brickpi3/): pip install brickpi3
+- [grovepi (PyPI)](https://pypi.org/project/grovepi/): pip install grovepi
+
+## Docs
+- [Knowledge Base](https://modrobotics.com/knowledge-base/): FAQs and support articles
+- [Blog](https://modrobotics.com/blog/)
+- [GitHub (DexterInd)](https://github.com/DexterInd): Official open-source driver repositories
+- [Contact / Support](https://modrobotics.com/contact-modular-robotics/)
+- [Privacy Policy](https://modrobotics.com/privacy-policy/)
+
+## Notes
+- No public HTTP/REST API, OpenAPI, MCP server, or webhook surface is published.
+- Programmatic use is via the local hardware driver libraries above (I2C/GPIO).

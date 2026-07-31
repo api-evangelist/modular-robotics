@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org + https://github.com/DexterInd
+notes: >-
+  Modular Robotics (via its Dexter Industries product line: GoPiGo, BrickPi,
+  GrovePi) publishes first-party Python driver libraries on PyPI, maintained
+  under the official DexterInd GitHub organization (website modrobotics.com).
+  These are hardware/robotics client libraries (I2C/GPIO drivers), not HTTP API
+  SDKs; the company ships no public HTTP API.
+packages:
+  - language: python
+    registry: pypi
+    name: gopigo3
+    url: https://pypi.org/project/gopigo3/
+    repo: https://github.com/DexterInd/GoPiGo3
+    version: 1.1.1
+    install: pip install gopigo3
+    summary: Drivers and examples for using the GoPiGo3 Raspberry Pi robot in Python
+    author: Dexter Industries
+    official: true
+  - language: python
+    registry: pypi
+    name: brickpi3
+    url: https://pypi.org/project/brickpi3/
+    repo: https://github.com/DexterInd/BrickPi3
+    version: 4.0.10
+    install: pip install brickpi3
+    summary: Drivers and examples for using the BrickPi3 (LEGO Mindstorms + Raspberry Pi) in Python
+    author: Dexter Industries
+    official: true
+  - language: python
+    registry: pypi
+    name: grovepi
+    url: https://pypi.org/project/grovepi/
+    repo: https://github.com/DexterInd/GrovePi
+    version: 1.0.4
+    install: pip install grovepi
+    summary: Drivers for using the GrovePi+ in Python
+    author: Dexter Industries
+    official: true

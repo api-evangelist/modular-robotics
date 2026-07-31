@@ -1,8 +1,28 @@
 aid: modular-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modular-robotics.png
 name: Modular Robotics
-description: 'Modular Robotics is a company surfaced as a portfolio company of foundry-group and added
-  to the API Evangelist network as a stub for enrichment. Sector: hardware. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Modular Robotics is a Boulder, Colorado hardware and educational-robotics
+  company best known for Cubelets, magnetic modular robot construction blocks
+  organized into SENSE, THINK, and ACT categories, and the MOSS building system.
+  It also produces the Dexter Industries STEM product line, including the GoPiGo
+  Raspberry Pi robot, BrickPi (LEGO Mindstorms plus Raspberry Pi), GrovePi, and
+  the micro:bit GiggleBot. The company sells physical robotics kits and companion
+  apps such as the browser-based Cubelets Console with Blockly and C coding
+  rather than a public HTTP API; programmatic access is provided through
+  first-party open-source Python driver libraries published on PyPI and
+  maintained under the official DexterInd GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/modular-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Hardware
+- Robotics
+- Education
+- STEM
+- EdTech
+- Consumer Electronics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://modrobotics.com
+- type: Blog
+  url: https://modrobotics.com/blog/
+- type: Documentation
+  url: https://modrobotics.com/knowledge-base/
+- type: HelpCenter
+  url: https://modrobotics.com/knowledge-base/
+- type: Support
+  url: https://modrobotics.com/contact-modular-robotics/
+- type: PrivacyPolicy
+  url: https://modrobotics.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/DexterInd
+- type: Packages
+  url: packages/modular-robotics-packages.yml
+- type: SDKs
+  url: packages/modular-robotics-packages.yml
+- type: LLMsTxt
+  url: llms/modular-robotics-llms.txt
+- type: DomainSecurity
+  url: security/modular-robotics-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
